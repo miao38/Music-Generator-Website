@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Website</title>
+  <base href="/static/">  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <app-root></app-root>
+  <br>
+  <style>
+    .btn, .btn:hover{
+      color: black;
+      width: 150px;
+      height: 25px;
+      margin: 0 auto;
+      padding: 0;
+      display: table-cell;
+      vertical-align: middle;
+    }
+    .btn:hover{
+      color: black;
+      background-color: #e7e7e7;
+      width: 150px;
+      height: 25px;
+      margin: 0 auto;
+      padding: 0;
+      display: table-cell;
+      vertical-align: middle;
+    }
+  </style>
+  <form action="{{ url_for('generated') }}">
+    <button type="submit" class="btn btn-generate">Generate Song</button>
+  </form>
+<!--had to change type from module to application/javascript because of chrome MIME error-->
+<script src="runtime-es2015.js" type="application/javascript"></script><script src="runtime-es5.js" nomodule defer></script><script src="polyfills-es5.js" nomodule defer></script><script src="polyfills-es2015.js" type="application/javascript"></script><script src="styles-es2015.js" type="application/javascript"></script><script src="styles-es5.js" nomodule defer></script><script src="scripts.js" defer></script><script src="vendor-es2015.js" type="application/javascript"></script><script src="vendor-es5.js" nomodule defer></script><script src="main-es2015.js" type="application/javascript"></script><script src="main-es5.js" nomodule defer></script></body>
+</html>
