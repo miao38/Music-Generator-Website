@@ -1,0 +1,21 @@
+.Title{
+    font-size: 25px;
+}
+
+.Instructions{
+    font-size: 20px;
+}
+
+/*this is for the selected item that shows up in the box*/
+select{
+    color: black;
+}
+
+/*this is for everything in the drop down list not shown in the box*/
+option{
+    color: black;
+}
+
+button{
+    color: black;
+}

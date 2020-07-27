@@ -1,0 +1,17 @@
+<header class="Title">Welcome to Music Generator</header>
+<p></p>
+<header class="Instructions">Instructions</header>
+<p>
+  Select the type of music/instrument you would like to hear from the drop down box. 
+  Then click on the generate button. 
+  Next click on play and listen to the magic happen.
+</p>
+<p></p>
+
+<div>
+  <header>Types of Music</header>
+  <select>
+    <option [value]="" disabled selected hidden>Select a music style</option>
+    <option *ngFor="let ins of instruments">{{ins}}</option>
+  </select>
+</div>

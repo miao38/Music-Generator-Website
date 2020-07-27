@@ -1,0 +1,14 @@
+.nav.navbar-nav{
+    font-size: 15px;
+}
+
+#searchForm{
+    margin-right: 100px;
+}
+
+/*hides search bar if window is too small*/
+@media (max-width: 1200px){
+    #searchForm {
+        display: none
+    }
+}
